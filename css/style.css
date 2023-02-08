@@ -39,6 +39,7 @@ header{
     right: 0;
     color: var(--white);
 }
+
 .logo img{
     margin-left: 4px;
 width: 160px;
@@ -57,6 +58,7 @@ header .container{
 }
 
 header section{
+    
     margin: 28px 1px;
 }
 
@@ -78,6 +80,7 @@ nav .nav-links{
   margin: 0 20px;
 
 }
+/* btn nav menu  */
 .btn-nav a {
     display: block;
     border: 2px solid var(--white);
@@ -92,12 +95,45 @@ nav .nav-links{
     font-size: 15px;
     
 }
-
-
+/* hover btn nav menu */
 .btn-nav a:hover{
     background-color: var(--white);
     color: var(--pink);
 }
+
+/* burger menu*/
+.burger{
+    cursor: pointer;
+    margin: 10px 0;
+    display: none;
+}
+.burger .line{
+ width: 35px;
+ height: 3px;
+ background-color: var(--white);
+ transition: 0.5s;
+ margin: 5px 0;
+}
+
+.burger .closed:first-child{
+transform: rotate(45deg);
+margin-left: -9px;
+
+}
+
+.burger .closed:nth-child(2){
+    display: none;
+    }
+
+.burger .closed:last-child{
+    transform: rotate(-45deg);
+    margin-left: -9px;
+    margin-top: -7px;
+    
+    }
+
+
+    
 
 
 /* end header */
