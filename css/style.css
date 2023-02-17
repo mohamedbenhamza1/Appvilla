@@ -101,39 +101,91 @@ nav .nav-links{
     color: var(--pink);
 }
 
-/* burger menu*/
-.burger{
-    cursor: pointer;
-    margin: 10px 0;
-    display: none;
-}
-.burger .line{
- width: 35px;
- height: 3px;
- background-color: var(--white);
- transition: 0.5s;
- margin: 5px 0;
-}
-
-.burger .closed:first-child{
-transform: rotate(45deg);
-margin-left: -9px;
-
-}
-
-.burger .closed:nth-child(2){
-    display: none;
-    }
-
-.burger .closed:last-child{
-    transform: rotate(-45deg);
-    margin-left: -9px;
-    margin-top: -7px;
-    
-    }
 
 
     
 
 
 /* end header */
+
+/* main */
+
+/* section banner */
+.flex-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+
+    background-color: var(--pink);
+    color: var(--white);
+
+    padding: 130px 120px;
+}
+
+.left-side-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.left-side-banner h1{
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.left-side-banner p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.apps-phone{
+    margin: 50px 0;
+}
+.apps-phone button{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 5px;
+    outline: none;
+   cursor: pointer;
+   transition: 0.3s;
+}
+.apps-phone button i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.iphone-btn{
+    color: var(--pink); 
+    border:2px solid var(--white);
+}
+.android-btn{
+    margin-left: 15px;
+    display: block;
+    color: var(--white) ; 
+    background-color: transparent;   
+    border: 2px solid var(--white);
+
+}
+
+.android-btn:hover{
+    background-color: var(--white);
+    color: #ff6b81;
+}
+.iphone-btn:hover{
+    background-color: #111;
+    color: var(--white);
+    border-color:#111 ;
+}
+.right-side-banner img{
+    display: block;
+ width: 100%;
+ margin: 32px 130px 0 0 ;
+}
