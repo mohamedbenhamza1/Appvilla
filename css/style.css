@@ -25,8 +25,167 @@ body{
  font-style:normal;
  color: var(--gray);
  overflow-x:hidden;font-size:15px}
+a{color: var(--white);
+    text-decoration: none;
+}
  p{font-size:15px;line-height:24px}
 
+/* header */
+header{
+    background-color: var(--pink);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: var(--white);
+}
+
+.logo img{
+    margin-left: 4px;
+width: 160px;
+max-width: 100%;
+}
+
+.container{
+    width: 1320px;
+    margin: auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header section{
+    
+    margin: 28px 1px;
+}
+
+ header section nav{
+width: 25%;
+}
+nav .nav-links{
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 5px;
+    
+}
+.nav-link{
+
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0 20px;
+
+}
+/* btn nav menu  */
+.btn-nav a {
+    display: block;
+    border: 2px solid var(--white);
+    padding:14px 30px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: -6.5px;
+    transition: 0.3s;
+    overflow: hidden;
+    font-size: 15px;
+    
+}
+/* hover btn nav menu */
+.btn-nav a:hover{
+    background-color: var(--white);
+    color: var(--pink);
+}
 
 
- 
+
+    
+
+
+/* end header */
+
+/* main */
+
+/* section banner */
+.flex-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+
+    background-color: var(--pink);
+    color: var(--white);
+
+    padding: 130px 120px;
+}
+
+.left-side-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.left-side-banner h1{
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.left-side-banner p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.apps-phone{
+    margin: 50px 0;
+}
+.apps-phone button{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 5px;
+    outline: none;
+   cursor: pointer;
+   transition: 0.3s;
+}
+.apps-phone button i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.iphone-btn{
+    color: var(--pink); 
+    border:2px solid var(--white);
+}
+.android-btn{
+    margin-left: 15px;
+    display: block;
+    color: var(--white) ; 
+    background-color: transparent;   
+    border: 2px solid var(--white);
+
+}
+
+.android-btn:hover{
+    background-color: var(--white);
+    color: #ff6b81;
+}
+.iphone-btn:hover{
+    background-color: #111;
+    color: var(--white);
+    border-color:#111 ;
+}
+.right-side-banner img{
+    display: block;
+ width: 100%;
+ margin: 32px 130px 0 0 ;
+}
