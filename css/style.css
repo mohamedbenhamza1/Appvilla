@@ -160,6 +160,7 @@ nav .nav-links{
 .iphone-btn{
     color: var(--pink); 
     border:2px solid var(--white);
+    background-color: var(--white);
 }
 .android-btn{
     margin-left: 15px;
@@ -332,4 +333,44 @@ nav .nav-links{
 .info-image img{
     width: 85%;
     float: right;
+}
+
+.review:last-child{
+    margin-top: 150px;
+}
+
+
+.count{
+    margin: 120px 0;
+    text-align: center;
+    background: var(--pink);
+    padding: 100px 0;
+    color: var(--white);
+}
+
+.info h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.info p {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.counter-elements{
+    
+    width: 70%;
+    margin: 50px auto;
+    display:  flex;
+    justify-content: space-around;
+}
+
+.count-element  h5{
+    font-size: 35px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
 }
