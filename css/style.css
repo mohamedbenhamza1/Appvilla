@@ -160,6 +160,7 @@ nav .nav-links{
 .iphone-btn{
     color: var(--pink); 
     border:2px solid var(--white);
+    background-color: var(--white);
 }
 .android-btn{
     margin-left: 15px;
